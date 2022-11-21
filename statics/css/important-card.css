@@ -1,0 +1,10 @@
+.important-card-container {
+    padding: 5rem;
+}
+
+.important-card {
+    aspect-ratio: 5 / 3;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+}

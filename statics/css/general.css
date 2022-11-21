@@ -1,0 +1,24 @@
+/* body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 400;
+    font-size: large;
+} */
+
+#logo {
+    width: 35px;
+    height: 35px;
+    border-radius: 20%;
+    transition: 0.25s;
+}
+
+#logo:hover {
+    box-shadow: 2px 0px 10px 5px rgba(219,219,219,0.7);
+}
+
+.main-card {
+    aspect-ratio: 16 / 10;
+    width: calc(16*25px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+

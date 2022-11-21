@@ -1,0 +1,24 @@
+.hero-image {
+    width: 100%;
+    background-color: orange;
+}
+
+.category-navigation {
+    height: 300px;
+    width: 200px;
+    transform: skewX(-10deg);
+    background-size: cover;
+    transition: .25s;
+}
+
+.text-background {
+    height: 60px;
+    width: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 100%); 
+}
+
+.category-navigation:hover {
+    transform: skewX(-10deg) translate(0, -28px);
+    box-shadow: 2px 0px 10px 5px rgba(219,219,219,0.7);
+}
